@@ -1,0 +1,913 @@
+
+/*the small phones*/
+@media only screen
+and (min-device-width: 0px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  /*Aligning the  sidebar to the left side of my browser ,occupying a
+  width of 15% and a height that is suitable to th eye sight.the positioned is fixed
+  which resuts into the sidebar being glued to the left side of the  browser*/
+
+  #sidebar_styling{
+    background-color:#333;
+    width: 20%;
+    height: 1200px;
+    padding-left: 5px;
+    position: fixed;
+    float: left;
+    color:white;
+    padding-right: 5px;
+  }
+
+  /* Centered text and a bottom padding to the sidebar listed items */
+
+  #sidebar_styling li{
+    text-align: center;
+    padding-bottom: 50px;
+    /*padding-top: 50px;*/
+  }
+
+  /* Targeting the sidebar images and making it a
+  border radius of 50% as well as a top padding */
+
+  #sidebar_styling img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  /*Removing the bullets from the unordered list*/
+
+  nav ul{
+    list-style-type: none;
+  }
+
+
+  /*Black background home icon with a padding top to
+  provide space between the icons within the sidbar*/
+
+  #home_icon{
+    background-color: black;
+    padding-top: 10px;
+  }
+
+  /*Adding a hover to the home icon ,to change
+  to a gray color and a black text color */
+
+  #home_icon:hover{
+    background-color: red;
+    color: black;
+  }
+
+  /*removing the line and changing the text size
+  bigger,and addding color*/
+
+  #home_icon a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  /* Adding a black background hover to the sidebar
+  this apply to the classed information */
+
+  .sidebar_icons:hover{
+    background-color: red;
+  }
+
+  /*removing the line from the anchor tag and changing the
+  color as well as enchancing the size of the font*/
+
+  .sidebar_icons a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  /*aligned a background image to the top right of my browser ,by floating it right
+  as well as inserting  a suitable height and width and sizing it to cover to fit the cover of the screen */
+
+  #image_aligned_right{
+    height:750px;
+    float: right;
+    width: 75%;
+    background-image: url("lance.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*styling the text ontop of the background image, giving
+  it a gray color with some padding ,as well as font size*/
+
+  #image_aligned_right p{
+    color: #333;
+    padding-left: 500px;
+    font-size: 40px;
+  }
+
+  #image_aligned_right h3{
+    color: #333;
+    padding-left: 500px;
+    font-size: 40px;
+  }
+
+  /*personal Statement aligned to the right of the browser,comes
+  with a suitable height and width. contains padding for personal
+  alignement as well as a background gray color to add a theme to the browser page*/
+
+  #personal_statement_aligned_right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    background-color: #333;
+    float: right;
+    height: 750px;
+    color: black;
+    font-family: 'IM Fell Great Primer', serif;
+  }
+
+  /*targeting the h1 of the personal statement centering it ,
+  inserting a font size as well as a black text color*/
+
+  #personal_statement_aligned_right h1{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+  }
+
+  /*targeting the p tag of the personal statement white text color,
+  centered text as well as padding .contains a font size too*/
+
+  #personal_statement_aligned_right p{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: white;
+    font-size: 37px;
+  }
+
+  /*aligned  content to the right ,contains paddding for adjusting ,
+  a width and height to compliment the rest of the content on the browser */
+
+  #skill_ability_aligned_right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    background-color: black;
+    float: right;
+    height: 1100px;
+    color: white;
+  }
+
+  /*targeting the headings and centering them in the middle as well as adding font size*/
+
+  #skill_ability_aligned_right h2,h3,h4{
+    text-align: center;
+    font-size: 36px;
+  }
+
+  /*centered white text with a font size and padding for adjustment */
+
+  #skill_ability_aligned_right p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 36px;
+    color: white;
+  }
+
+  /*Removing the bullets from the unordered list*/
+
+  #skill_ability_aligned_right ul{
+    list-style-type: none;
+  }
+
+  /*aligning the text center of the list items*/
+
+  #skill_ability_aligned_right li{
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /*white text color background red color aligned
+  content to the right of the browser,contains padding as well */
+
+  #coding_content_holder{
+    color:white;
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height:550px;
+    float: right;
+    width: 75%;
+  }
+
+  #coding_content_holder h1{
+    text-align: center;
+  }
+
+  #html_bar{
+    padding-left: 80px;
+    padding-bottom: 30px;
+    float:left;
+  }
+
+  #css_bar{
+    padding-left: 80px;
+    padding-bottom: 30px;
+    float:left;
+  }
+
+  #javascript_bar{
+    padding-left: 80px;
+    float:left;
+  }
+
+  #jquery_bar{
+    padding-left: 80px;
+    float:left;
+  }
+
+  /**/
+  #html_bar img{
+    border-radius: 50%;
+    width: 240px;
+    height: 200px;
+    box-shadow: 5px 5px 5px red;
+  }
+
+  #css_bar img{
+    box-shadow: 5px 5px 5px red;
+    border-radius: 50%;
+    width: 240px;
+    height: 200px;
+  }
+
+  #javascript_bar img{
+    box-shadow: 5px 5px 5px red;
+    border-radius: 50%;
+    width: 240px;
+    height: 200px;
+  }
+
+  #jquery_bar img{
+    box-shadow: 5px 5px 5px red;
+    border-radius: 50%;
+    width: 240px;
+    height: 200px;
+  }
+
+  /**/
+  #html_bar:hover{
+    opacity: 0.1;
+    transition: 3s;
+
+  }
+
+  #css_bar:hover{
+    opacity: 0.1;
+    transition: 3s;
+  }
+
+  #javascript_bar:hover{
+    opacity: 0.1;
+    transition: 3s;
+  }
+
+  #jquery_bar:hover{
+    opacity: 0.1;
+    transition: 3s;
+  }
+
+  /* courses completed content displays on the right ,with a matching
+  width as the rest of the content that appears  on the right with
+  a white text color and a themed background color */
+
+  #courses{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    background-color:black;
+    float: right;
+    height: 1600px;
+    color: white;
+  }
+
+  /*styling the p tag within the courses holder*/
+  #courses p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 36px;
+    color: white;
+  }
+
+  /*aligning the heading center*/
+  #courses h2{
+    text-align: center;
+    font-size: 36px;
+  }
+
+  /*education content contains padding ,background color,
+  text color as well as a suitable width and height*/
+
+  #education_aligned_right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    background-color: #333;
+    float: right;
+    height: 1600px;
+  }
+
+  /*aligning white headings from h2-h5 */
+
+  #education_aligned_right h2,h3{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+  }
+
+  /*Removing the bullets from the unordered list*/
+
+  #education_aligned_right ul{
+    list-style-type: none;
+    font-size: 36px;
+    padding-left: 110px;
+  }
+
+  /*creatng space between the listed items by adding a padding bottom*/
+
+  #education_aligned_right li{
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  /*Styling the p tags within the education aligned holder*/
+  #education_aligned_right p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 36px;
+    color: white;
+  }
+
+
+  /*adding a border bottom to the sub headings*/
+  .white_underline{
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+  }
+
+  /**/
+  #contact_holder{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    background-color:#333;
+    float: right;
+    height: 400px;
+    color: white;
+  }
+
+  #contact_holder h2,h3{
+    text-align: center;
+    font-size: 36px;
+  }
+
+  #contact_holder table{
+    padding-left: 50px;
+  }
+
+  #contact_holder td{
+    padding-bottom: 35px;
+    font-size: 36px;
+  }
+
+  .td_text{
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  #home_bullets_styling{
+    list-style-type: none;
+  }
+
+
+  #footer_icons{
+    height: 70px;
+    background-color: gray;
+    color: white;
+    padding-left: 55px;
+
+  }
+
+
+  /*aligning the reference page to the right of the browser*/
+  #references{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    background-color:black;
+    float: right;
+    height: 1200px;
+    color: white;
+  }
+
+  #references h2{
+    text-align: center;
+    font-size: 36px;
+  }
+
+  #references h4{
+    padding-right: 50%;
+    font-size: 30px;
+  }
+
+  #references img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px #333;
+  }
+
+  #references img:hover{
+    transform: rotateY(-180deg);
+    transition: 2s;
+    box-shadow: 5px 5px 5px red;
+  }
+
+  #references table {
+    padding-left: 5%;
+  }
+
+  #references p{
+    font-size: 30px;
+  }
+
+  .references_data{
+    padding-left: 10%;
+  }
+
+}
+/*the end of the phone responsiveness*/
+
+
+/*tablet stylying */
+@media only screen
+  and (min-device-width: 481px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    /*Aligning the  sidebar to the left side of my browser ,occupying a
+    width of 15% and a height that is suitable to th eye sight.the positioned is fixed
+    which resuts into the sidebar being glued to the left side of the  browser*/
+
+    #sidebar_styling{
+      background-color:#333;
+      width: 15%;
+      height: 720px;
+      padding-left: 5px;
+      position: fixed;
+      float: left;
+      top: 0;
+      color:white;
+      padding-right: 5px;
+    }
+
+    /* Centered text and a bottom padding to the sidebar listed items */
+
+    #sidebar_styling li{
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+
+    /* Targeting the sidebar images and making it a
+    border radius of 50% as well as a top padding */
+
+    #sidebar_styling img{
+      padding-top: 10px;
+      border-radius: 50%;
+      width: 150px;
+      height: 130px;
+    }
+
+    /*Removing the bullets from the unordered list*/
+
+    nav ul{
+      list-style-type: none;
+    }
+
+
+    /*Black background home icon with a padding top to
+    provide space between the icons within the sidbar*/
+
+    #home_icon{
+      background-color: black;
+      padding-top: 10px;
+    }
+
+    /*Adding a hover to the home icon ,to change
+    to a gray color and a black text color */
+
+    #home_icon:hover{
+      background-color: red;
+      color: black;
+    }
+
+    /*removing the line and changing the text size
+    bigger,and addding color*/
+
+    #home_icon a{
+      color: white;
+      font-size: 37px;
+      text-decoration: none;
+    }
+
+    /* Adding a black background hover to the sidebar
+    this apply to the classed information */
+
+    .sidebar_icons:hover{
+      background-color: red;
+    }
+
+    /*removing the line from the anchor tag and changing the
+    color as well as enchancing the size of the font*/
+
+    .sidebar_icons a{
+      color: white;
+      font-size: 37px;
+      text-decoration: none;
+    }
+
+    /*aligned a background image to the top right of my browser ,by floating it right
+    as well as inserting  a suitable height and width and sizing it to cover to fit the cover of the screen */
+
+    #image_aligned_right{
+      height:750px;
+      float: right;
+      width: 83%;
+      background-image: url("lance.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /*styling the text ontop of the background image, giving
+    it a gray color with some padding ,as well as font size*/
+
+    #image_aligned_right p{
+      color: #333;
+      padding-left: 530px;
+      font-size: 47px;
+    }
+
+    #image_aligned_right h3{
+      color: #333;
+      padding-left: 520px;
+      font-size: 47px;
+    }
+
+    /*personal Statement aligned to the right of the browser,comes
+    with a suitable height and width. contains padding for personal
+    alignement as well as a background gray color to add a theme to the browser page*/
+
+    #personal_statement_aligned_right{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 83%;
+      background-color: #333;
+      float: right;
+      height: 1400px;
+      color: black;
+      font-family: 'IM Fell Great Primer', serif;
+    }
+
+    /*targeting the h1 of the personal statement centering it ,
+    inserting a font size as well as a black text color*/
+
+    #personal_statement_aligned_right h1{
+      text-align: center;
+      color: black;
+      font-size: 50px;
+    }
+
+    /*targeting the p tag of the personal statement white text color,
+    centered text as well as padding .contains a font size too*/
+
+    #personal_statement_aligned_right p{
+      padding-left: 10%;
+      padding-right: 10%;
+      text-align: center;
+      color: white;
+      font-size: 50px;
+    }
+
+    /*aligned  content to the right ,contains paddding for adjusting ,
+    a width and height to compliment the rest of the content on the browser */
+
+    #skill_ability_aligned_right{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 83%;
+      background-color: black;
+      float: right;
+      height: 1800px;
+      color: white;
+    }
+
+    /*targeting the headings and centering them in the middle as well as adding font size*/
+
+    #skill_ability_aligned_right h2,h3,h4{
+      text-align: center;
+      font-size: 50px;
+    }
+
+    /*centered white text with a font size and padding for adjustment */
+
+    #skill_ability_aligned_right p{
+      padding-left: 10%;
+      padding-right: 10%;
+      font-size: 50px;
+      color: white;
+    }
+
+    /*Removing the bullets from the unordered list*/
+
+    #skill_ability_aligned_right ul{
+      list-style-type: none;
+    }
+
+    /*aligning the text center of the list items*/
+
+    #skill_ability_aligned_right li{
+      font-size: 50px;
+      text-align: center;
+    }
+
+    /*white text color background red color aligned
+    content to the right of the browser,contains padding as well */
+
+    #coding_content_holder{
+      color:white;
+      background-color: #333;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height:800px;
+      float: right;
+      width: 83%;
+    }
+
+    #coding_content_holder h1{
+      text-align: center;
+      font-size: 50px;
+    }
+
+
+    #html_bar{
+      padding-left: 100px;
+      padding-bottom: 50px;
+      float:left;
+    }
+
+    #css_bar{
+      padding-left: 100px;
+      padding-bottom: 50px;
+      float:left;
+    }
+
+    #javascript_bar{
+      padding-left: 100px;
+      padding-bottom: 50px;
+      float:left;
+    }
+
+    #jquery_bar{
+      padding-left: 100px;
+      padding-bottom: 50px;
+      float:left;
+    }
+
+    /**/
+    #html_bar img{
+      border-radius: 50%;
+      width: 250px;
+      height: 210px;
+      box-shadow: 5px 5px 5px red;
+    }
+
+    #css_bar img{
+      box-shadow: 5px 5px 5px red;
+      border-radius: 50%;
+      width: 250px;
+      height: 210px;
+    }
+
+    #javascript_bar img{
+      box-shadow: 5px 5px 5px red;
+      border-radius: 50%;
+      width: 250px;
+      height: 210px;
+    }
+
+    #jquery_bar img{
+      box-shadow: 5px 5px 5px red;
+      border-radius: 50%;
+      width: 250px;
+      height: 210px;
+    }
+
+    /**/
+    #html_bar:hover{
+      opacity: 0.1;
+      transition: 3s;
+
+    }
+
+    #css_bar:hover{
+      opacity: 0.1;
+      transition: 3s;
+    }
+
+    #javascript_bar:hover{
+      opacity: 0.1;
+      transition: 3s;
+    }
+
+    #jquery_bar:hover{
+      opacity: 0.1;
+      transition: 3s;
+    }
+
+    /* courses completed content displays on the right ,with a matching
+    width as the rest of the content that appears  on the right with
+    a white text color and a themed background color */
+
+    #courses{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 83%;
+      background-color:black;
+      float: right;
+      height: 2100px;
+      color: white;
+    }
+
+    /*styling the p tag within the courses holder*/
+    #courses p{
+      padding-left: 10%;
+      padding-right: 10%;
+      font-size: 50px;
+      color: white;
+    }
+
+    /*aligning the heading center*/
+    #courses h2{
+      text-align: center;
+      font-size: 50px;
+    }
+
+    /*education content contains padding ,background color,
+    text color as well as a suitable width and height*/
+
+    #education_aligned_right{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 83%;
+      background-color: #333;
+      float: right;
+      height: 2400px;
+    }
+
+    /*aligning white headings from h2-h5 */
+
+    #education_aligned_right h2,h3{
+      text-align: center;
+      color: white;
+      font-size: 50px;
+    }
+
+    #education_aligned_right h1{
+      font-size: 50px;
+    }
+
+    /*Removing the bullets from the unordered list*/
+
+    #education_aligned_right ul{
+      list-style-type: none;
+      font-size: 50px;
+      padding-left: 110px;
+    }
+
+    /*creatng space between the listed items by adding a padding bottom*/
+
+    #education_aligned_right li{
+      padding-bottom: 10px;
+      color: white;
+    }
+
+    /*Styling the p tags within the education aligned holder*/
+    #education_aligned_right p{
+      padding-left: 10%;
+      padding-right: 10%;
+      font-size: 50px;
+      color: white;
+    }
+
+
+    /*adding a border bottom to the sub headings*/
+    .white_underline{
+      border-bottom: 2px solid red;
+      padding-bottom: 10px;
+    }
+
+    /**/
+    #contact_holder{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 83%;
+      background-color:#333;
+      float: right;
+      height: 600px;
+      color: white;
+    }
+
+    #contact_holder h2,h3{
+      text-align: center;
+      font-size: 50px;
+    }
+
+    #contact_holder table{
+      padding-left: 50px;
+    }
+
+    #contact_holder td{
+      padding-bottom: 35px;
+    }
+
+    .td_text{
+      padding-left: 10px;
+      font-size: 50px;
+    }
+
+    #home_bullets_styling{
+      list-style-type: none;
+    }
+
+
+    #footer_icons{
+      height: 70px;
+      background-color: gray;
+      color: white;
+      padding-left: 55px;
+
+    }
+
+
+    /*aligning the reference page to the right of the browser*/
+    #references{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 83%;
+      background-color:black;
+      float: right;
+      height: 1600px;
+      color: white;
+    }
+
+    #references h2{
+      text-align: center;
+      font-size: 50px;
+    }
+
+    #references h4{
+      padding-right: 50%;
+      font-size: 50px;
+    }
+
+    #references img{
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      box-shadow: 5px 5px 5px #333;
+    }
+
+    #references img:hover{
+      transform: rotateY(-180deg);
+      transition: 2s;
+      box-shadow: 5px 5px 5px red;
+    }
+
+    #references table {
+      padding-left: 5%;
+    }
+
+    #references p,h1{
+      font-size: 35px;
+    }
+
+    .references_data{
+      padding-left: 10%;
+    }
+
+}
